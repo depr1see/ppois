@@ -1,0 +1,9 @@
+[project]
+name = "banking_system_lab"
+version = "0.1.0"
+description = "Учебная модель банковской системы"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+addopts = "--cov=banking.exceptions --cov=tests --cov-report=term-missing"
+testpaths = ["tests"]
